@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Ardal/obj
+/.vs/ardal/v15/.suo
+/.vs/ardal/v15/.suo

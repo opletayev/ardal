@@ -1,0 +1,7 @@
+type: query
+params:
+  - { name: a, type: string }
+  - { name: b, type: string }
+
+text: |
+  select * from table where a = @a and b = @b

@@ -1,0 +1,2 @@
+﻿# Design Spec for ARDAL 
+

@@ -1,0 +1,18 @@
+environment:
+  dev:
+    database: 
+      db: (connection string)
+      provider: MSSQL
+      pool: 
+        active: 4
+        max: 10
+        ttl: 1
+
+    host: http://localhost:8888/ardal-dev
+    path: C:\dev\personal\ardal\Sample\aql\
+
+    log-level: info
+
+
+    
+  
