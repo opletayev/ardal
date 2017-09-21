@@ -29,6 +29,8 @@ namespace Ardal
         {
             services.AddOptions();
             services.Configure<Config.Settings>(Configuration);
+
+			services.AddSingleton<AQL.IAQLEngine, AQL.AQLEngine>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,11 +44,6 @@ namespace Ardal
             }
 
             app.UseMiddleware<Http.Middleware>();
-           
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("Hello World!");
-            //});
         }
     }
 }

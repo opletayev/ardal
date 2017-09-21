@@ -17,6 +17,7 @@ namespace Ardal
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
+//				.UseUrls("http://localhost:7777")
                 .Build();
 
             host.Run();

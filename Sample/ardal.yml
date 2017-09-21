@@ -11,8 +11,4 @@ environment:
     host: http://localhost:8888/ardal-dev
     path: C:\dev\personal\ardal\Sample\aql\
 
-    log-level: info
-
-
-    
-  
+    log-level: info  

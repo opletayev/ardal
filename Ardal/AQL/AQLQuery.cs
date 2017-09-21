@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Ardal.Agents
+namespace Ardal.AQL
 {
-    interface IArdalAgent
+    public class AQLQuery
     {
-        Task Start();
-        Task Shutdown();
     }
 }
